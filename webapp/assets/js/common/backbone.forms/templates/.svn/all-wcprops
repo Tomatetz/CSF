@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/scaffolds/!svn/ver/774/frontend/src/main/webapp/assets/js/common/backbone.forms/templates
+END
+backbone.forms.templates.js
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/scaffolds/!svn/ver/239/frontend/src/main/webapp/assets/js/common/backbone.forms/templates/backbone.forms.templates.js
+END
+fieldset-2clmn.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/scaffolds/!svn/ver/235/frontend/src/main/webapp/assets/js/common/backbone.forms/templates/fieldset-2clmn.tpl
+END
+form-2clmn.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/scaffolds/!svn/ver/235/frontend/src/main/webapp/assets/js/common/backbone.forms/templates/form-2clmn.tpl
+END

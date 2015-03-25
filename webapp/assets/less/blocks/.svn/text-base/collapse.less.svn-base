@@ -1,0 +1,46 @@
+// collapse btn
+.collapse-btn {cursor:pointer;
+  > .fa {font-size:16px; margin-right:6px;}
+  &.collapsed {
+    > .fa-angle-up:before {content: "\f107";}
+    > .fa-angle-down:before {content: "\f107";}
+  }
+  > .fa-angle-down:before { content: "\f106";}
+  &:hover {
+    > .fa-angle-up, > .fa-angle-down {color:@link-hover-color;}
+  }
+}
+// collapse icon
+.fa-angle-up {
+  &.collapsed {
+    &:before { content: "\f107"; }
+  }
+}
+
+// collapse block - hide title when opened/
+.collapse-hide {display:none;
+  &.collapsed {display:inline;}
+  .glyphicon {margin-right:2px;}
+}
+
+// collapse grid cols - todo move to custom
+// search col
+.row {
+  &.row-collapsible {padding-left:10px; padding-right:10px;
+    .search-form-col {float:left; width:315px; margin-left:10px; overflow:hidden;}
+    .search-form-col-hide {float:left; width: 0; overflow:hidden;}
+    .search-result-col {margin-left:315px + 30px; margin-right:10px; position: relative;}
+    .search-result-col-full {margin-left:10px; position: relative;}
+    .btn.collapse-left {position:absolute; top:-3px; left:-25px; padding:2px 3px;}
+    h3 {white-space: nowrap; margin-top:0;}
+    div {
+      .transition(~"width 0.5s ease, margin 0.5s ease");
+    }
+    .dataTables_wrapper, .table.dataTable {clear:right;}
+    > div {position: relative;}
+  }
+}
+
+
+
+

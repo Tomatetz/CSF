@@ -1,0 +1,172 @@
+// Logos styles (NIBR Software Style Guidelines)
+// -------------------------
+
+// Novartis blue (only for logo)
+@blue-logo:             #007FA1;
+
+// Brand colors
+@brand-brown:			#634329;
+@brand-brown-1:			#8A6B53;
+@brand-brown-2:			#A28E7D;
+@brand-brown-3:			#CDC2B9;
+
+@brand-brownlight:		#923222;
+@brand-brownlight-1:	#A66149;
+@brand-brownlight-2:	#BE8B75;
+@brand-brownlight-3:	#D8BDAF;
+
+@brand-red:				#E44C16;
+@brand-red-1:			#F5824E;
+@brand-red-2:			#F9A880;
+@brand-red-3:			#FDD1B7;
+
+@brand-orange:			#EC8026;
+@brand-orange-1:		#F89E54;
+@brand-orange-2:		#FDBC87;
+@brand-orange-3:		#FFDCBD;
+
+@brand-orangelight:		#FCAF17;
+@brand-orangelight-1:	#FDC15A;
+@brand-orangelight-2:	#FFD38E;
+@brand-orangelight-3:	#FFE7C2;
+
+@brand-yellow:			#FED300;
+@brand-yellow-1:		#FFDD5D;
+@brand-yellow-2:		#FFE794;
+@brand-yellow-3:		#FFF2C7;
+
+@brand-beige:			#F5EBD7;
+@brand-beige-1:			#F7EFDF;
+@brand-beige-2:			#F9F3E7;
+@brand-beige-3:			#FBF7EF;
+
+// Supporting colors
+@black:                 #000;
+@gray-1:                #333;
+@gray-2:				#666;
+@gray-3:				#999;
+@gray-4:				#cecece;
+@gray-5:				#e3e3e3;
+@gray-6:				#f2f2f2;
+@gray-7:                #fcfcfc;
+@white:					#fff;
+@support-blue:			#0064A1;
+@support-bluedark:		#5D93BA;
+@support-bluelight:		#E1ECF2;
+@support-green:			#5CB85C;
+@support-red:			#C62A2A;
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+@screen-xs:                  480px;
+@screen-phone:               @screen-xs;
+
+// Small screen / tablet
+@screen-sm:                  768px;
+@screen-tablet:              @screen-sm;
+
+// Medium screen / desktop
+@screen-md:                  992px;
+@screen-desktop:             @screen-md;
+
+// Large screen / wide desktop
+@screen-lg:                  1200px;
+@screen-lg-desktop:          @screen-lg;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm - 1);
+@screen-sm-max:              (@screen-md - 1);
+@screen-md-max:              (@screen-lg - 1);
+
+
+// Typography
+// -------------------------
+
+@font-family-base:		Verdana, Arial, sans-serif;
+@font-family-acsent:	'NewsGothic', Arial, Verdana, sans-serif;
+@font-family-secondary:	Arial, Verdana, sans-serif;
+
+@font-size-xlarge:      ceil(@font-size-base * 1.75); // ~25px
+@font-size-large:       ceil(@font-size-base * 1.15); // ~15px
+@font-size-base:        13px;
+@font-size-small:       ceil(@font-size-base * 0.83); // ~11px
+@font-size-smaller:     ceil(@font-size-base * 0.76); // ~10px
+@font-size-xsmall:      ceil(@font-size-base * 0.69); // ~9px
+
+@line-height-base:      1.38; // ~18px
+@line-height-large:     1.5;
+@line-height-small:		1;
+@line-height-computed:  floor(@font-size-base * @line-height-base);
+
+@text-color:            @gray-1;
+//@text-secondary-color:  @brand-brown;
+//@text-alter-color:      @white;
+
+// Headings
+@headings-font-family-1:@font-family-acsent;
+@headings-font-family-2:@font-family-base;
+@headings-font-weight:  700;
+@headings-line-height:  1;
+@headings-color:		@gray-1;
+
+// Lead
+@lead-color:			@gray-1;
+@lead-size:				@font-size-large;
+
+// Links
+@link-color:            #0064a1;
+@link-hover-color:      #e44c16;
+
+// List
+// FontAwesome icon - color @brand-orange
+
+// Borders
+@border-color:          @gray-4;
+@border-primary-color:  @gray-3;
+@border-panel-color:    @border-color;
+@border-color-active:   @brand-orange;
+
+// Shadows
+@shadow-color:          @gray-5;
+
+// Components
+// -------------------------
+@padding-base-vertical:     5px;
+@padding-base-horizontal:   12px;
+@padding-large-vertical:    10px;
+@padding-large-horizontal:  16px;
+@padding-small-vertical:    2px;
+@padding-small-horizontal:  6px;
+
+@border-radius-base:    6px;
+@border-radius-small:   3px;
+@border-radius-smaller: 4px;
+@border-radius-large:   12px;
+@border-radius-full:    500px;
+
+
+// Buttons
+@btn-default-color:     @black;
+@btn-default-border:    @gray-3;
+@btn-default-bg:        @gray-5;
+@btn-default-padding:   @padding-base-vertical @padding-base-horizontal;
+
+@btn-hover-color:       @btn-default-color;
+@btn-hover-border:      @border-color-active;
+@btn-hover-bg:          @btn-default-bg;
+
+@btn-disabled-color:    @gray-3;
+@btn-disabled-border:   @btn-default-border;
+@btn-disabled-bg:       @btn-default-bg;
+
+@image-folder:          'Default';
+@button-padding:        @padding-small-vertical @padding-small-horizontal;
+
+// Grid
+@grid-padding:          @padding-base-vertical;
+@grid-header-padding:   @grid-padding;
+
+// Paths
+@image-path:          "../img/";

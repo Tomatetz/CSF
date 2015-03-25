@@ -1,0 +1,130 @@
+@text-max-width:        600px;
+@text-maxl-width:       800px;
+
+// Panel
+@panel-shadow:          3px 3px 3px -3px @shadow-color;
+
+@panel-preview-height:  590px;
+@panel-preview-text-font: @gray-4;
+@panel-preview-text-size: @font-size-large;
+
+@panel-add-width:       148px;
+
+@panel-add-text-size:   @font-size-base;
+
+@panel-default-bg:      @white;
+@panel-primary-bg:      @gray-7;
+
+// Panel series list
+@series-list-ttl-bg:    @gray-7;
+@series-list-btns-width:40px;
+@series-list-btns-marg: 12px;
+
+// Glyphicon
+@glyphicon-font-size:   @font-size-base;
+@glyphicon-color:       @gray-2;
+@glyphicon-hover-color: @link-hover-color;
+
+// Card-list
+@card-list-item-label-color: @gray-3;
+@card-list-item-label-size:  @font-size-small;
+@card-list-item-radius:      @border-radius-small;
+@card-list-item-border:      @border-color;
+@card-list-item-border-active:@border-color-active;
+@card-list-item-color-active:@border-color-active;
+
+// Label
+@label-block-color:         @gray-3;
+@label-block-size:          @font-size-small;
+
+// Slide
+@slide-control-color:         @gray-3;
+@slide-control-active-color:  @brand-orange;
+@slide-control-width:         20px;
+@slide-control-font-size:     20px;
+@slide-indicator-active-bg:   #fff;
+@slide-indicator-border-color:#fff;
+
+// Item
+@item-width:            180px;
+@item-height:           @item-width;
+@item-border:           @gray-3;
+@item-border2:          @brand-orangelight;
+@item-color:            @text-color;
+@item-ttl-color:        @white;
+@item-text-padding:     3px 5px;
+@item-active-border:    @brand-red;
+@text-shadow:           0 1px 2px rgba(0,0,0,.6);
+@item-new-bg:           @support-bluelight;
+@item-new-border:       @support-blue;
+@item-height:           180px;
+@item-radius:           0;
+
+// Label
+@label-active-bg:             @support-green;
+@label-disable-bg:            @gray-3;
+@label-circle-size:           12px;
+
+// Comment block
+@comment-bg:            @gray-6;
+@comment-padding:       @padding-base-vertical @padding-base-horizontal;
+@comment-size:          @font-size-small;
+@comment-date-size:     @font-size-xsmall;
+
+// Alert
+@alert-error-border:    @brand-red;
+@alert-error-bg:        @brand-beige-3;
+@alert-info-border:     @support-blue;
+@alert-info-bg:         @support-bluelight;
+
+//Forms
+@form-error-color:           @brand-red;
+
+//Select2
+@select2-input-border:        @border-color;
+@select2-input-border-focus:  @gray-2;
+@select2-input-border-radius: @border-radius-small;
+@select2-input-color:         #555;
+@select2-font:                @font-family-base;
+@select2-input-bg:            #fff;
+@select2-input-height-base:   32px;
+@select2-line-height-base:    18px;
+@select2-input-height-small:  28px;
+@select2-line-height-small:   18px;
+@select2-border-radius-small: @border-radius-small;
+@select2-input-height-large:  32px;
+@select2-line-height-large:   18px;
+@select2-border-radius-large: @border-radius-small;
+@select2-state-warning-text:  @text-color;
+@select2-state-warning-bg:    #fff;
+@select2-state-danger-text:   @support-red;
+@select2-state-success-text:  @support-green;
+@select2-dropdown-link-active-color: @text-color;
+@select2-dropdown-link-active-bg: @gray-5;
+@select2-input-bg-disabled:   #999;
+
+//Alter component
+@component-font-size:         .846em;
+@component-opacity:           1;
+@component-bg:                #000;
+@component-color:             #fff;
+@component-padding:           @padding-base-vertical @padding-base-horizontal;
+
+//Tooltip
+@tooltip-bg:                  @component-bg;
+@tooltip-color:               @component-color;
+@tooltip-padding:             @component-padding;
+
+//Popover
+@popover-bg:                  @component-bg;
+@popover-color:               @component-color;
+@popover-padding:             @component-padding;
+
+//Breadcrumb
+@breadcrumb-width:            200px;
+@breadcrumb-tooltip-width:    400px;
+@breadcrumb-bg:               @gray-7;
+@breadcrumb-radius:           @border-radius-base;
+@breadcrumb-color:            @text-color;
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Compound Series & Favorites</title>
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="http://nebulacdn.na.novartis.net/plugins/sig-gethelp/2.0.0/jquery.sig.gethelp.css"rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/vendor/html5shiv.js"></script>
+    <script src="assets/js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <script src="./assets/js/vendor/require.js"></script>
+    <script src="./assets/js/optimized.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="wrap">
+    <header data-role="header">
+        <div id="nibr-header"></div>
+        <div id="breadcrumbs"></div>
+    </header>
+    <div id="main" class="container-fluid" data-role="content"></div>
+</div>
+<footer data-role="footer" id="footer">
+    <div class="container-fluid">
+        <div class="copyright pull-left">
+            (C)2014 Novartis Institutes for BioMedical Research. <span id="footer_version_tag"></span> Version:
+            <span id="footer_version">${csf.webapp.version}</span><span id="footer_build_time"> - ${csf.webapp.build_time}</span><span id="footer_environment"></span>
+        </div>
+        <div class="contact pull-right"><span class="timestamp"></span> Contact <a
+                href="mailto:anna.pelliccioli@novartis.com">Application Owner</a> for more information.
+            <a href="/csf" style="margin-left:10px;">REST API</a>.
+        </div>
+    </div>
+</footer>
+
+<script src="http://web.global.nibr.novartis.net/util/auth.js"></script>
+<script type="text/javascript">
+
+    var EnvConfig = {
+        CSFVersion: "${csf.webapp.version}-${csf.webapp.build_time}",
+        ApiUrl: "/csf/1.0/",
+        SketcherId: "ChemDraw",
+        PeopleServiceApiUrl: "http://web.global.nibr.novartis.net/services/ps/v1/people/search",
+        MoleculesRenderApiUrl: "http://web.global.nibr.novartis.net/services/depicter/mol-renderer/t.b64",
+        SourceAssaySearchUrl: "http://magma.nibr.novartis.net/0.8/rest/assay/search.json",
+        SourceLiteratureSearchUrl: "http://search.crossref.org/dois",
+        PreviewCardPeopleUrl: "http://uscalx1214.na.novartis.net/people/get.json?callback=json_callback",
+        NVPGetMolfile: "/csf/1.0/actions/lookup/nvp_structures"
+    }
+
+</script>
+<script src="./assets/js/require_main.js"></script>
+
+<div id="dialog-region"></div>
+<div id="notify-region"></div>
+</body>
+</html>

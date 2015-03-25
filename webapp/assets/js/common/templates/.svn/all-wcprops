@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scaffolds/!svn/ver/1448/frontend/src/main/webapp/assets/js/common/templates
+END
+form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/scaffolds/!svn/ver/1447/frontend/src/main/webapp/assets/js/common/templates/form.tpl
+END
+loading_collapse-panel.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/scaffolds/!svn/ver/1447/frontend/src/main/webapp/assets/js/common/templates/loading_collapse-panel.tpl
+END
+loading.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/common/templates/loading.tpl
+END
+collapse-panel.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/scaffolds/!svn/ver/1448/frontend/src/main/webapp/assets/js/common/templates/collapse-panel.tpl
+END

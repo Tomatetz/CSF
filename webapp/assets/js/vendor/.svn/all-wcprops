@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scaffolds/!svn/ver/1553/frontend/src/main/webapp/assets/js/vendor
+END
+nibr-bootstrap.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/scaffolds/!svn/ver/1003/frontend/src/main/webapp/assets/js/vendor/nibr-bootstrap.js
+END
+spin.jquery.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/scaffolds/!svn/ver/1361/frontend/src/main/webapp/assets/js/vendor/spin.jquery.js
+END
+spin.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/spin.js
+END
+almond.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/almond.js
+END
+geometry.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1429/frontend/src/main/webapp/assets/js/vendor/geometry.js
+END
+require.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/require.js
+END
+respond.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/respond.min.js
+END
+bootbox.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/scaffolds/!svn/ver/916/frontend/src/main/webapp/assets/js/vendor/bootbox.min.js
+END
+moment.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scaffolds/!svn/ver/580/frontend/src/main/webapp/assets/js/vendor/moment.min.js
+END
+backbone.picky.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/backbone.picky.js
+END
+backbone.syphon.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/backbone.syphon.js
+END
+bootstrap-notify.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/scaffolds/!svn/ver/980/frontend/src/main/webapp/assets/js/vendor/bootstrap-notify.js
+END
+html5shiv.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scaffolds/!svn/ver/14/frontend/src/main/webapp/assets/js/vendor/html5shiv.js
+END

@@ -1,0 +1,35 @@
+.btn-group {
+  > .btn {margin-left:-1px;
+    &:first-child {margin-left:0;}
+  }
+}
+
+// Fix dropdown btn-group in btn-group
+.btn-group {
+  > .btn-group {display:inline-block;}
+  &.btn-group-justified {
+    > .btn, > .btn-group {display:table-cell;}
+  }
+}
+.btn-group > .btn-group:last-child > .btn {
+  &, &:first-child:not(:last-child):not(.dropdown-toggle) {
+    .border-right-radius(@border-radius-small);
+  }
+}
+
+// Mix button-groups with tabs
+[data-toggle="buttons"] > [data-toggle="tab"] > .btn > input[type="radio"],
+[data-toggle="buttons"] > [data-toggle="tab"] > .btn > input[type="checkbox"] {display:none;}
+
+.btn-group {
+  > [data-toggle="tab"] {
+    position: relative; float: left; margin-left: -1px;
+    &:first-child{margin-left:0;
+      > .btn {margin-left: 0; .border-right-radius(0);}
+    }
+    &:last-child:not(:first-child) > .btn {.border-left-radius(0);}
+    > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {border-radius: 0;}
+  }
+}
+
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scaffolds/!svn/ver/1543/frontend/src/main/webapp/assets/js/apps/structure/tags
+END
+tags_view.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/scaffolds/!svn/ver/1560/frontend/src/main/webapp/assets/js/apps/structure/tags/tags_view.js
+END
+structures_list_item_tags.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/scaffolds/!svn/ver/1429/frontend/src/main/webapp/assets/js/apps/structure/tags/structures_list_item_tags.js
+END
+init_tags_control.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scaffolds/!svn/ver/1499/frontend/src/main/webapp/assets/js/apps/structure/tags/init_tags_control.js
+END
+tags_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/scaffolds/!svn/ver/1454/frontend/src/main/webapp/assets/js/apps/structure/tags/tags_controller.js
+END
+tags_filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/scaffolds/!svn/ver/1433/frontend/src/main/webapp/assets/js/apps/structure/tags/tags_filter.js
+END

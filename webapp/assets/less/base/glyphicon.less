@@ -1,0 +1,60 @@
+.glyphicon {color:@glyphicon-color; font-size:@glyphicon-font-size; -webkit-text-stroke: 0.1px @glyphicon-color;
+  &.glyphicon-btn {cursor:pointer;
+    &:hover { color:@glyphicon-hover-color;  -webkit-text-stroke: 0.1px @glyphicon-hover-color;}
+    // compound icon
+    > .glyphicon {position: absolute; top:0; left:0; font-size: 0.75em; margin: -5px 0 0 6px; height:10px; width:9px;
+      filter: e(%("progid:DXImageTransform.Microsoft.Shadow(color='#ffffff', Direction=225, Strength=1);"));
+      text-shadow:
+        -1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        -1px 0 0 #fff,
+        1px -1px 0 #fff,
+        1px 1px 0 #fff,
+        1px 0 0 #fff,
+        0 -1px 0 #fff,
+        0 1px 0 #fff;
+    }
+    &:hover > .glyphicon { color:@glyphicon-hover-color;}
+  }
+}
+.icon-link-primary {color:@link-color; cursor:pointer;
+  > .glyphicon{color:@support-bluedark;  -webkit-text-stroke: 0.1px @support-bluedark;}
+  &:hover {color:@link-hover-color; text-decoration: underline;
+    > .glyphicon {color:@glyphicon-hover-color; -webkit-text-stroke: 0.1px @glyphicon-hover-color; }
+  }
+}
+.icon-link{
+  cursor:pointer; color:@link-color;
+  .glyphicon {color:@glyphicon-color; -webkit-text-stroke: 0.1px @glyphicon-color;
+  }
+  &:hover {text-decoration: none; color:@glyphicon-hover-color;
+    .glyphicon {color:@glyphicon-hover-color; -webkit-text-stroke: 0.1px @glyphicon-hover-color;}
+  }
+  &.goBack {
+    .glyphicon {font-size: @font-size-small;}
+  }
+}
+
+h1, h2, h3, h4 {
+  .icon-link{font-size: @font-size-base; font-weight: normal; font-family:@glyphicon-font-size;}
+}
+
+.card-list-item, .card-item {
+  div.item-menu-place {display:none;}
+  &:hover div.item-menu-place {display:block;}
+}
+tr {
+  > td.item-menu-place > div { min-width: 38px;
+    > div {display:none;}
+  }
+  &:hover > td.item-menu-place > div > div {display:block;}
+}
+
+.home-button-inactive {color:#AAAAAA;
+  .glyphicon-home {color:#AAAAAA;}
+}
+.home-button-active {
+  .glyphicon-home {color:#0064a1;
+   &:hover{color:#E44C16;}
+  }
+}

@@ -1,0 +1,33 @@
+.tooltip {
+  font-size:@font-size-base; font-weight:normal; font-family:@font-family-base;
+  .in {.opacity(@component-opacity);}
+  .dl-horizontal dt {color: @tooltip-color;}
+  &.top {padding:0 0 20px 0; margin:0;
+    .tooltip-arrow {margin-top: -10px; border-width: 10px 10px 0 10px; border-top-color: @tooltip-bg; margin-left:-10px; bottom:10px;}
+  }
+
+  &.right {padding:0 0 0 20px; margin:0;
+    .tooltip-arrow {margin-top: -10px; border-width: 10px 10px 10px 0; border-right-color: @tooltip-bg; margin-left:10px;}
+  }
+  &.top-right .tooltip-arrow {right: 10px; border-width: 10px 10px 0;}
+
+  &.bottom {padding:20px 0 0 0; margin:0;
+    .tooltip-arrow {margin-top: 10px; border-width: 0 10px 10px 10px; border-bottom-color: @tooltip-bg;}
+  }
+
+  &.left {padding:0 20px 0 0; margin:0;
+    .tooltip-arrow {margin-top: -10px; border-width: 10px 0 10px 10px; border-left-color: @tooltip-bg; margin-right:10px;}
+  }
+}
+.tooltip-inner {
+  font-size:@component-font-size;
+  background-color: @tooltip-bg;
+  color: @tooltip-color;
+  padding: @tooltip-padding;
+  max-width:420px;
+  text-align: left;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+

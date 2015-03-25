@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scaffolds/!svn/ver/1542/frontend/src/main/webapp/assets/less/custom
+END
+structure_tags.less
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1340/frontend/src/main/webapp/assets/less/custom/structure_tags.less
+END
+relationship_item.less
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/less/custom/relationship_item.less
+END
+dataTable.less
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/scaffolds/!svn/ver/1495/frontend/src/main/webapp/assets/less/custom/dataTable.less
+END
+search_results.less
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1481/frontend/src/main/webapp/assets/less/custom/search_results.less
+END
+search_form.less
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/scaffolds/!svn/ver/1542/frontend/src/main/webapp/assets/less/custom/search_form.less
+END
+progress_bar.less
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/less/custom/progress_bar.less
+END
+buttons_custom.less
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1473/frontend/src/main/webapp/assets/less/custom/buttons_custom.less
+END
+modal.less
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/less/custom/modal.less
+END
+tags.less
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/less/custom/tags.less
+END
+fa-icons.less
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/scaffolds/!svn/ver/1417/frontend/src/main/webapp/assets/less/custom/fa-icons.less
+END
+structure_name.less
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1504/frontend/src/main/webapp/assets/less/custom/structure_name.less
+END
+structure_links.less
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scaffolds/!svn/ver/1510/frontend/src/main/webapp/assets/less/custom/structure_links.less
+END
+structure_sources.less
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/scaffolds/!svn/ver/1510/frontend/src/main/webapp/assets/less/custom/structure_sources.less
+END
+structure_notes.less
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scaffolds/!svn/ver/1340/frontend/src/main/webapp/assets/less/custom/structure_notes.less
+END
+filters.less
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/scaffolds/!svn/ver/1533/frontend/src/main/webapp/assets/less/custom/filters.less
+END

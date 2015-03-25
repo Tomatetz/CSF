@@ -1,0 +1,7 @@
+#errList li{
+  list-style-type: none;
+}
+.errors{
+  display: none;
+  h3{color:@brand-red;}
+}

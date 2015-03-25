@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scaffolds/!svn/ver/1542/frontend/src/main/webapp/assets/less/base
+END
+typo.less
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scaffolds/!svn/ver/1017/frontend/src/main/webapp/assets/less/base/typo.less
+END
+brand-variables.less
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/scaffolds/!svn/ver/864/frontend/src/main/webapp/assets/less/base/brand-variables.less
+END
+glyphicon.less
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/scaffolds/!svn/ver/1495/frontend/src/main/webapp/assets/less/base/glyphicon.less
+END
+layout.less
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1560/frontend/src/main/webapp/assets/less/base/layout.less
+END
+responsive.less
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/scaffolds/!svn/ver/71/frontend/src/main/webapp/assets/less/base/responsive.less
+END
+scaffolding.less
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/scaffolds/!svn/ver/1361/frontend/src/main/webapp/assets/less/base/scaffolding.less
+END
+blocks-variables.less
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1281/frontend/src/main/webapp/assets/less/base/blocks-variables.less
+END
+mixins.less
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1001/frontend/src/main/webapp/assets/less/base/mixins.less
+END

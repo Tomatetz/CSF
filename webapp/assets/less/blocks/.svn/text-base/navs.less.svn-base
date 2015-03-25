@@ -1,0 +1,30 @@
+.nav-tabs > li {
+  background-image: none; filter:none;
+  > a {
+    #gradient > .vertical(@white; @gray-6; 0%; 100%);
+  }
+  &.active > a{background-image:none; filter:none;}
+  &:hover{cursor:pointer;}
+}
+.panel__new-project-button{
+  margin-left:15px;
+}
+.tab-content-panel {
+  background-color: #fff;
+  border:1px solid #999;
+  border-top:0 none;
+  padding:@padding-large-vertical @padding-base-horizontal;
+}
+.panel__series_status{margin-top:6px;}
+.panel__filter--dropdown{
+  width:380px;
+  padding:10px;
+
+  label{
+    font-size: 11px;
+  }
+  form{
+    white-space: nowrap;
+    padding:10px;
+  }
+}

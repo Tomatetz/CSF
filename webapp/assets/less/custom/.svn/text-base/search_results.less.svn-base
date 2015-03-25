@@ -1,0 +1,35 @@
+.js-search-collapse {
+  float: left;
+  margin-left: -15px;
+  font-size:16px;
+  margin-top: -3px;
+  margin-right: 5px;
+  cursor: pointer;
+  &.collapsed {
+    color: #EC8026;
+  }
+  .chevronToggle{
+    font-size:17px
+  }
+}
+.structure-type{
+  border: 1px solid black;
+  padding: 0px 2px 0px 2px;
+  border-radius: 2px;
+}
+[data-element="image-container"]{
+  .js-export{
+    visibility: hidden;
+    font-size: 16px;
+    color: #BBBBBB;
+  }
+}
+[role="row"]{
+  &:hover{
+    [data-element="image-container"]{
+      .js-export{
+        visibility: visible;
+      }
+    }
+  }
+}

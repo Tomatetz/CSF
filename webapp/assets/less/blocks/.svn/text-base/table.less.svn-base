@@ -1,0 +1,20 @@
+.table {
+  border: 1px solid @gray-3; /*font-size: @component-font-size;*/
+  &.table-th-nowrap thead > tr:first-child th {white-space: nowrap;
+  }
+  .editable-search{
+    display:none;
+  }
+}
+.table > thead > tr > th {
+  border-left: 1px solid @gray-3; border-color: @gray-3; #gradient > .vertical(@white, @gray-5);
+  &:first-child, &.nobord {border-left: 0 none;}
+}
+.table thead > tr:first-child > th {border-bottom-width:1px;}
+
+.table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+  border-top: 0 none;
+  &.disabled, &.disabled:hover {background-color: transparent;}
+}
+.table .actions {width: 60px;border-left: none;}
+.item-menu-place {white-space: nowrap;}

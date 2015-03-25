@@ -1,0 +1,26 @@
+.card-list {
+  .card-item {display:inline-block; vertical-align: top;
+    .panel {width:300px; display: inline-block; margin: 0 12px 12px 0;
+      .panel-heading > div > div:first-child {text-overflow: ellipsis; overflow:hidden;
+        a, small {white-space: nowrap; }
+      }
+      .panel-body {min-height: 150px; overflow:auto;
+        .dl-horizontal.dl-horizontal-md {padding:0;}
+      }
+    }
+  }
+  .card-list-item {
+    .clearfix(); padding: @padding-large-vertical @padding-large-vertical @padding-large-vertical @padding-large-horizontal;
+    border:1px solid @border-color; .border-radius(@card-list-item-radius); margin-top:@padding-base-vertical;
+    &:first-child {margin-top:0;}
+    .card-list-item-ttl {
+      h3 {float:left; margin-top:3px; margin-right:@padding-base-horizontal;}
+    }
+    &:hover, &.active {border-color: @card-list-item-border-active;
+      .card-list-item-ttl {
+        h3 {color: @card-list-item-color-active;}
+      }
+    }
+  }
+}
+

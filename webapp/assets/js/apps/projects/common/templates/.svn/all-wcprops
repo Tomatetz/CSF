@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/scaffolds/!svn/ver/1489/frontend/src/main/webapp/assets/js/apps/projects/common/templates
+END
+dialog_info.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/scaffolds/!svn/ver/1347/frontend/src/main/webapp/assets/js/apps/projects/common/templates/dialog_info.tpl
+END
+form_header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/scaffolds/!svn/ver/1297/frontend/src/main/webapp/assets/js/apps/projects/common/templates/form_header.tpl
+END
+dialog_confirm.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/scaffolds/!svn/ver/1379/frontend/src/main/webapp/assets/js/apps/projects/common/templates/dialog_confirm.tpl
+END
+new_project.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/scaffolds/!svn/ver/1489/frontend/src/main/webapp/assets/js/apps/projects/common/templates/new_project.tpl
+END

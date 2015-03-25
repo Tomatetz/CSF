@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells
+END
+item_menu_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells/item_menu_cell.tpl
+END
+project_contacts_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/scaffolds/!svn/ver/1299/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells/project_contacts_cell.tpl
+END
+project_name_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/scaffolds/!svn/ver/1375/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells/project_name_cell.tpl
+END
+targets_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/scaffolds/!svn/ver/1320/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells/targets_cell.tpl
+END
+modified_by_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/scaffolds/!svn/ver/1295/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells/modified_by_cell.tpl
+END
+target_types_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/scaffolds/!svn/ver/1341/frontend/src/main/webapp/assets/js/apps/projects/list/templates/item_cells/target_types_cell.tpl
+END

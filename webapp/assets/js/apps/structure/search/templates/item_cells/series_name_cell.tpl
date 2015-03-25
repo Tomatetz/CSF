@@ -1,0 +1,1 @@
+<a href="#/projects/<%= project.project_id %>/series/<%= series.series_id %>" target="_blank"><%= series.series_name %></a>

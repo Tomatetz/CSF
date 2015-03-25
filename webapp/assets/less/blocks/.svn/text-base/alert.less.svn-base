@@ -1,0 +1,4 @@
+.alert {padding: @padding-large-vertical @padding-large-horizontal; text-align:center; max-width:@text-max-width;
+  &.alert-error {border-color:@alert-error-border; background-color: @alert-error-bg;}
+  &.alert-info  {border-color:@alert-info-border; background-color: @alert-info-bg; border-style: dashed; color:@text-color;}
+}

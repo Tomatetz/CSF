@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--PLEASE DO NOT MODIFY THIS FILE AND BE AWARE THAT THE FILE CONTAINS CONFIDENTIAL INFORMATION.-->
+<ChemAxon>
+<License>
+<Field Name="Software" Value="Web Services Server"/>
+<Field Name="License Term" Value="Evaluation"/>
+<Field Name="Licensee" Value="Novartis Institutes for BioMedical Research"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2014-06-30"/>
+<Field Name="Support Expiration Date" Value="2014-06-30"/>
+<Field Name="Comment" Value="MarvinJS eval."/>
+<Restriction Name="Server Use" Value="Allowed"/>
+<Signature Value="MCwCFE9b3EaVdl7YqIG6pZGJtcWRXf4zAhQ92cRRPyWhBLAKEW57Km3Rh1H/LA=="/>
+</License>
+<License>
+<Field Name="Software" Value="Marvin for JavaScript"/>
+<Field Name="License Term" Value="Evaluation"/>
+<Field Name="Licensee" Value="Novartis Institutes for BioMedical Research"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2014-06-30"/>
+<Field Name="Support Expiration Date" Value="2014-06-30"/>
+<Field Name="Comment" Value="MarvinJS eval."/>
+<Restriction Name="Server Use" Value="Allowed"/>
+<Signature Value="MC0CFArFNxMLjjxAgODn/40A5WxE2uIDAhUAhnpGc4nPWxfbxQxm4lfVUVfjaFk="/>
+</License>
+</ChemAxon>

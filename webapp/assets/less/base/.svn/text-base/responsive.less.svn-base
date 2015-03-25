@@ -1,0 +1,29 @@
+@media (max-width: @screen-xs-max) {
+  .dl-horizontal {
+    &.dl-horizontal-sm {
+      dt {width: auto;}
+      dd {margin-left: 0;}
+    }
+    &.dl-horizontal-md {
+      dt {width: auto;}
+      dd {margin-left: 0;}
+    }
+  }
+}
+
+@media (min-width: @screen-xs-max) {
+  .dl-horizontal {
+    &.dl-horizontal-sm {
+      dt {}
+      dd {display:block;
+        &:before, &:after {display:none;}
+      }
+    }
+    &.dl-horizontal-md {
+      dt {}
+      dd {display:block;
+        &:before, &:after {display:none;}
+      }
+    }
+  }
+}

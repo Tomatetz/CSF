@@ -1,0 +1,151 @@
+/* common */
+input[type="text"], input[type="password"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], textarea {
+  &.form-control {padding: 6px @padding-base-horizontal;}
+  &.input-sm {
+    padding: 2px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    height:auto;
+  }
+}
+select {
+  &.form-control {
+    padding: 5px @padding-base-horizontal;
+    background: url("http://nebulacdn.na.novartis.net/images/sig_dropdown_arrow.png") right center no-repeat;
+  }
+  &.input-sm {
+    padding: 2px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    height:auto;
+  }
+}
+
+/* forms */
+.form-horizontal   {
+  .control-label {
+    &.control-label-secondary {font-weight:normal; text-align:left;}
+  }
+  .control-label-2rows .control-label {padding-top: 0;}
+  .control-data {padding:7px 10px 2px 10px; font-size: @component-font-size;}
+}
+
+.form-group {
+  > .col-md-1, > .col-md-2, > .col-md-3, > .col-md-4, > .col-md-5, > .col-md-6, > .col-md-7, > .col-md-8, > .col-md-9, > .col-md-10, > .col-md-11, > .col-md-12 {
+    > label {padding-bottom: 2px; font-size: @component-font-size; color: #666666; text-transform: uppercase;}
+  }
+  > label:first-child + .checkbox {margin-top:0;}
+  margin-bottom:@padding-large-vertical;
+  a, .icon-link-primary {font-size: @component-font-size;}
+  > .glyphicon-btn {margin:5px 7px 0 0;}
+  &.form-group-sm {
+    .control-label {
+      padding-top:@padding-base-vertical;
+    }
+  }
+  .control-text {font-size: @component-font-size; padding-top: 7px;
+    > a {font-size:1em;}
+  }
+  .select2-container a {font-size:1em;}
+}
+.panel > .form-group > label {text-transform: none;}
+
+.form-control {
+  &.form-control-radio-list {padding:@padding-base-vertical 0 0 0; margin:0; border: 0 none; .box-shadow(0 0 0 transparent); background-color: transparent;
+    > ul {list-style-type: none; margin:0; padding:0; .clearfix();
+      > li {float:left; width:50%;
+        > label {font-weight:normal;}
+      }
+    }
+  }
+}
+label {
+  &.label-secondary {color:@label-block-color; font-size:@label-block-size;}
+  &.label-block {display:block; margin:@padding-base-vertical 0 0 0;}
+}
+.row:first-child > div > label.label-block {margin-top:0;}
+
+/*  descriptions  */
+.dl-horizontal {.clearfix();
+  &.dl-horizontal-sm {padding:@padding-base-vertical 0; margin:0;
+    dt {
+      color:@gray-2; width: 70px;
+    }
+    dd {
+      margin-left: 80px;
+    }
+  }
+  &.dl-horizontal-md {padding:@padding-base-vertical 0; margin:0;
+    dt {
+      color:@gray-2; width: 90px;
+    }
+    dd {
+      margin-left: 100px;
+    }
+  }
+  &.dl-horizontal-mdl {padding:@padding-base-vertical 0; margin:0;
+    dt {
+      color:@gray-2; width: 100px;
+    }
+    dd {
+      margin-left: 110px;
+    }
+  }
+  &.dl-horizontal-lg {padding:@padding-base-vertical 0; margin:0;
+    dt {
+      color:@gray-2; width: 130px;
+    }
+    dd {
+      margin-left: 140px;
+    }
+  }
+  &.dl-horizontal-xlg {padding:@padding-base-vertical 0; margin:0;
+    dt {
+      color:@gray-2; width: 150px;
+    }
+    dd {
+      margin-left: 160px;
+    }
+  }
+  &.dl-horizontal-txt-sm {font-size: @component-font-size;}
+}
+
+.edit-padding {margin-left:20px;}
+
+/*  validation  */
+.help-block {margin:0; font-size: @component-font-size;}
+.has-error {
+  .help-block, .control-label {color: @form-error-color;}
+  .form-control {border-color: @form-error-color}
+}
+
+.row-text .checkbox, .row-text .radio {margin-top:0; margin-bottom:0;}
+
+/*  form list
+ul.form-control {
+  list-style-type: none; padding:6px @padding-small-horizontal;
+  li { padding:0 @padding-small-horizontal;
+    &:hover {background-color: @item-new-bg;}
+  }
+} */
+
+.form-data {padding:0 0 @padding-base-vertical 0; font-size: @component-font-size;
+  > label {color: @gray-2;}
+}
+
+.inner-form-group {margin-left:@padding-base-horizontal;}
+
+// remove icon in form controls
+.control-clear {position:relative;
+  .form-control {padding: 5px @padding-base-horizontal;
+    &.input-sm {padding: 2px 16px 2px 10px;}
+  }
+  .glyphicon.glyphicon-remove {position:absolute; top:7px; right:5px; font-size: .75em;}
+}
+
+/* todo - custom */
+.field-project_name .form-control {
+  &[name="project_name"] {
+    padding-right: 20px;
+  }
+}

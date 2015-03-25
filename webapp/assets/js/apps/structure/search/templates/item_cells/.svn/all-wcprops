@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/scaffolds/!svn/ver/1479/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells
+END
+image_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/scaffolds/!svn/ver/1479/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells/image_cell.tpl
+END
+series_name_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/scaffolds/!svn/ver/1338/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells/series_name_cell.tpl
+END
+project_ptt_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/scaffolds/!svn/ver/1341/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells/project_ptt_cell.tpl
+END
+tags_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/scaffolds/!svn/ver/1314/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells/tags_cell.tpl
+END
+structure_name_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/scaffolds/!svn/ver/1325/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells/structure_name_cell.tpl
+END
+structure_type_cell.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/js/apps/structure/search/templates/item_cells/structure_type_cell.tpl
+END

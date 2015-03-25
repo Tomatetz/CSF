@@ -1,0 +1,1 @@
+<div class="alert alert-info">This structure doesn't exist !</div>

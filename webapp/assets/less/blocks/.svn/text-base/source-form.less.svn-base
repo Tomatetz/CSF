@@ -1,0 +1,36 @@
+// List of search result of sources
+.search-result {
+  display: none;  min-height: 55px;  max-height: 150px;  overflow: auto;  border: 1px solid @border-color; padding: 2px; margin-bottom:15px;
+  .search-result-item {
+    background: #fff; position: relative; padding: @padding-small-vertical @padding-small-horizontal; border: 1px solid @border-color;
+    .border-radius(@border-radius-small); margin-bottom: 2px; cursor: pointer;
+    &.active {background: @gray-5;}
+  }
+}
+
+// Source list in new structure dialog
+.source-list {
+  > .panel {margin-bottom:2px; .clearfix();
+    > div, > a {display:block; margin:0 35px 0 68px; font-size:@component-font-size; .text-overflow();
+      > span {}
+    }
+    .label.pull-left {display:inline-block; margin: 0 3px 0 0; min-width:68px; test-align:center;}
+  }
+}
+
+// Source list on structure detailed page
+#accordion-sources {
+  .source-list {
+    > .source-block {margin-top:@padding-large-vertical; .clearfix();
+      &:first-child{margin-top:0;}
+      > div:first-child, > a {display:block; margin:0 20px 0 0; font-size:@component-font-size; word-wrap: break-word;
+        > span {}
+      }
+      > .source-comment {margin-left:@padding-base-horizontal; font-size:@component-font-size}
+      .label.pull-left {display:inline-block; margin: 0 3px 0 0; min-width:68px; test-align:center;}
+    }
+  }
+}
+.accordeon__source_item{
+  margin-bottom:2px;
+}

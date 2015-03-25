@@ -1,0 +1,9 @@
+.progress-bar-empty{
+  width: 0%;
+  margin-left: 5px;
+  color: #cecece;
+}
+.progress-bar-container{
+  top:200px;
+  display: none;
+}

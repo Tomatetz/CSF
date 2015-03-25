@@ -1,0 +1,35 @@
+.notifications {
+  position: fixed;
+  z-index: 2000;
+  > .alert {
+    position: relative; z-index: 9999; margin: 5px 0px; padding:@padding-small-horizontal; font-size:@component-font-size; text-align:left; width:450px;
+    h4 {margin-right: 3 * @padding-small-horizontal}
+    > a {margin-top:-5px;}
+    .panel {border:0 none;margin-bottom:@padding-small-horizontal;
+      > p > span {display:block; margin-left:15px;}
+      >p:last-child{margin-bottom:0;}
+      &:last-child{margin-bottom:0;}
+    }
+  }
+}
+
+/* Positioning */
+.notifications.top-right {
+  right: 10px;
+  top: 25px;
+}
+
+.notifications.top-left {
+  left: 10px;
+  top: 25px;
+}
+
+.notifications.bottom-left {
+  left: 10px;
+  bottom: 25px;
+}
+
+.notifications.bottom-right {
+  right: 10px;
+  bottom: 25px;
+}

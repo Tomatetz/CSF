@@ -1,0 +1,8 @@
+#accordion-sources.panel-group {margin:0;
+  .panel-title {
+    a {display:block;
+      &:hover {text-decoration: none;}
+    }
+  }
+  .alert {margin:0;}
+}

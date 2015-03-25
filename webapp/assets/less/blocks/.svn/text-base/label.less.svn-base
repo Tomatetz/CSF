@@ -1,0 +1,31 @@
+.label {
+  font-weight:normal; font-size:@component-font-size;
+  &.label-default {background-color:@gray-6; color:@text-color;}
+  &.label-sm {font-size:@font-size-smaller; padding: .1em .4em .1em; margin:0 1px;}
+
+  // Labels for series status
+  &.label-active,  &.label-disable {display:inline-block; width:@label-circle-size;height:@label-circle-size;
+    padding: 0; .border-radius(@border-radius-large); font-size:@font-size-base; border:1px solid transparent; cursor:default;
+  }
+  &.label-active {
+    background-color: lighten(@label-active-bg, 20%);
+    border-color: @label-active-bg;
+  }
+  &.label-disable {
+    background-color: lighten(@label-disable-bg, 20%);
+    border-color: @label-disable-bg;
+  }
+
+  &.label-bordered {
+    background-color: @white; border:1px solid @gray-4; display:inline-block; margin:3px 3px 0 0;
+  }
+}
+h3 {
+  .label {
+    &.label-active,  &.label-disable {margin-right:@padding-small-horizontal;}
+  }
+}
+
+// label with dropdowns inside
+.label .dropdown {display:inline-block;}
+.label .dropdown-menu > li > a {font-size:@component-font-size;}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/scaffolds/!svn/ver/1543/frontend/src/main/webapp/assets/js/apps/structure/search/templates
+END
+search_layout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/scaffolds/!svn/ver/1538/frontend/src/main/webapp/assets/js/apps/structure/search/templates/search_layout.tpl
+END
+search_results.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/scaffolds/!svn/ver/1373/frontend/src/main/webapp/assets/js/apps/structure/search/templates/search_results.tpl
+END
+search_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/scaffolds/!svn/ver/1543/frontend/src/main/webapp/assets/js/apps/structure/search/templates/search_form.tpl
+END
+no_result.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/scaffolds/!svn/ver/1053/frontend/src/main/webapp/assets/js/apps/structure/search/templates/no_result.tpl
+END
+empty_result.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/scaffolds/!svn/ver/1136/frontend/src/main/webapp/assets/js/apps/structure/search/templates/empty_result.tpl
+END

@@ -1,0 +1,1 @@
+<div class="empty-relationships-view">There are no relationships</div>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon"
+          href="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/assets/ico/favicon.ico">
+    <title>JQuery Mol Editor Test</title>
+    <link href="lib/jquery-ui-1.11.0/jquery-ui.css" rel="stylesheet">
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <script src="lib/jquery-ui-1.11.0/jquery-ui.js"></script>
+    <script src="lib/chemdraw/chemdraw.js"></script>
+    <script>
+        cd_includeWrapperFile("lib/chemdraw/", true);
+    </script>
+    <script src="jquery.moleditor.js"></script>
+</head>
+<body>
+<div id="sketch-dialog" title="Sketch a scaffold substructure">
+    <div>Click on box below to edit structure:</div>
+    <div id="moleditor"></div>
+</div>
+<button id='edit' onclick="openDialog();">Edit</button>
+<br/>
+<textarea id="molStrBox" rows="30" cols="100"></textarea>
+<script>
+    var openDialog;
+    $(document).ready(function () {
+        var $molEditor = $("#moleditor");
+        var $molStrBox = $('#molStrBox');
+        var $sketchDialog = $("#sketch-dialog");
+
+        $molEditor.moleditor({
+            width: 342,
+            height: 340
+        });
+
+        $sketchDialog.dialog({
+            "autoOpen": false,
+            "modal": true,
+            "buttons": {
+                "Ok": function () {
+                    var molfile = $molEditor.moleditor('getMolfile');
+                    $molStrBox.val(molfile);
+                  /*  var smiles = $molEditor.moleditor('getSmiles');
+                    $molStrBox.val(smiles);*/
+                    $(this).dialog('close');
+                },
+                "Cancel": function () {
+                    $(this).dialog('close');
+                }
+            },
+            "minWidth": 380,
+            "minHeight": 380,
+            "open": function () {
+                if ($molStrBox.val()) {
+                    var ctab = $molStrBox.val();
+                    $molEditor.moleditor('setMolfile', ctab);
+                    /*var smiles = $molStrBox.val();
+                    $molEditor.moleditor('setSmiles', smiles);*/
+                }
+            }
+        });
+
+        openDialog = function () {
+            $sketchDialog.dialog('open')
+        }
+    });
+
+</script>
+</body>
+</html>

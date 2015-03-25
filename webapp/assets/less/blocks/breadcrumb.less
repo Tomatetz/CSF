@@ -1,0 +1,12 @@
+.breadcrumb {
+  background-color: @breadcrumb-bg; .border-radius(@breadcrumb-radius);
+  padding: @padding-base-vertical @padding-base-horizontal; margin: 0 0 15px 0; .clearfix();
+  &:last-child {float:none}
+  > .active {color: @breadcrumb-color;}
+  > li {float:left;
+    > a,  > span  {display:inline-block; max-width: @breadcrumb-tooltip-width; overflow-x: hidden; white-space: nowrap; text-overflow: ellipsis; position: relative;}
+    + li:before {content: "|\00a0"; color: @breadcrumb-color; float:left; width:15px;}
+    + li + li:before {content: "/\00a0";}
+  }
+}
+.breadcrumb-tooltip {width: @breadcrumb-width;}

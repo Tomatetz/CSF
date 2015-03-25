@@ -1,0 +1,1 @@
+<div class="alert alert-info">There are no series for this project. <a href="Create your first series" data-action="createNewSeries">Create your first series.</a></div>

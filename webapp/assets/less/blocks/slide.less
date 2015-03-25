@@ -1,0 +1,73 @@
+// Wrapper for the slide container and indicators
+.slide {position: relative;
+  &.slide-scroll {max-height: 400px; overflow-y: scroll; overflow-x: hidden;}
+}
+.slide-inner {
+  position: relative;
+  margin: 0 10;
+  white-space:nowrap;
+  overflow-x:hidden;
+  .clearfix();
+  > .slide-wrap {position: relative; left:0; font-size:0; min-height:@item-height+60px;
+    .item-block { display:inline-block; margin:0 0 0 @padding-base-horizontal;
+    }
+  }
+}
+// Left/right controls for nav
+// ---------------------------
+
+.slide-control {
+  position: absolute; top: 0;  left: 0; bottom: 0; text-align: center; cursor: pointer;
+  width: @slide-control-width;
+  font-size: @slide-control-font-size;
+  color: @slide-control-color;
+
+  &.prev {}
+  &.next {left: auto; right: 0;}
+  &:hover, &:focus {
+    outline: none;
+    color: @slide-control-active-color;
+    text-decoration: none;
+  }
+
+  // Toggles
+  .icon-prev, .icon-next, .fa-angle-left, .fa-angle-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+  }
+  .icon-prev, .fa-angle-left {left: 0;}
+  .icon-next, .fa-angle-right {right: 0;}
+  .icon-prev, .icon-next {width:  20px; height: 20px; margin-top: -10px; font-family: serif;}
+
+  .icon-prev {&:before {content: '\2039';}}
+  .icon-next {&:before {content: '\203a';}}
+}
+
+
+
+
+// Scale up controls for tablets and up
+@media screen and (min-width: @screen-sm) {
+
+  // Scale up the controls a smidge
+  .slide-control {
+    .fa-angle-left,
+    .fa-angle-right,
+    .icon-prev,
+    .icon-next {
+      width: 30px;
+      height: 36px;
+      margin-top: -15px;
+      font-size: 36px;
+    }
+  }
+
+  // Show and left align the captions
+  .slide-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+}

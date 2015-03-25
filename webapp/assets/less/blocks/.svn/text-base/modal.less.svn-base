@@ -1,0 +1,44 @@
+.modal-header {
+  lpadding: @padding-large-vertical @padding-large-horizontal;
+}
+.modal-title {
+  line-height: 1;
+}
+.modal-body {
+  padding: @padding-large-vertical @padding-large-horizontal;
+}
+.modal-error {
+  padding: 0 @padding-large-horizontal;
+}
+.modal-footer {
+  margin-top: 0; padding: @padding-large-vertical @padding-large-horizontal;
+  .modal__delete-item{
+    color: #0064a1;cursor: pointer;padding-right: 20px;
+
+    &:hover {
+      text-decoration: underline;}
+  }
+}
+
+// fix dublicate scrooll when modal is open
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {margin-right: 0;}
+.modal {overflow-y: auto;}
+
+.edit-source-modal{
+  width:500px;
+  input, textarea {margin-bottom: 20px;}
+}
+.empty-modal{width:500px;}
+.add-new-structure-modal{width:1100px;
+  .nvp-note{height:200px; margin-bottom: 20px;}
+  #nvpPreviewToggle{display:none;}
+  #wrongNVP{color:#e44c16; display:none;}
+  .right-panel{
+    margin-top: 40px;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  .form-placeholder{display: none;}
+  .progress{display: none; width:100%;}
+}

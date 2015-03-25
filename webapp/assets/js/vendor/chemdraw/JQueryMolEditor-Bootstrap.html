@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+          href="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/assets/ico/favicon.ico">
+    <title>JQuery Mol Editor Test</title>
+    <!-- Bootstrap core CSS -->
+    <link href="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/dist/css/nibr-bootstrap.css"
+          rel="stylesheet">
+    <link href="http://nebulacdn.na.novartis.net/plugins/sig-gethelp/2.0.0/jquery.sig.gethelp.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/assets/js/html5shiv.js"></script>
+    <script src="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="margin:6px;">
+<div class="col-lg-12">
+    <br/>
+    <button type='button' id='edit' onclick="openDialog();" class="btn btn-primary">Edit</button>
+    <br/>
+    <br/>
+    <textarea id="molStrBox" rows="30" cols="100"></textarea>
+
+    <div id="sketch-modal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Sketch a scaffold substructure</h4>
+                </div>
+                <div class="modal-body">
+                    <div>Click on box below to edit structure:</div>
+                    <div id="moleditor"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="saveAndCloseDialog();">OK</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+<!-- /.col-md-12 -->
+<!-- NIBR Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/assets/js/jquery.js"></script>
+<script src="http://nebulacdn.na.novartis.net/component/nibr-bootstrap/3.1.0/dist/js/nibr-bootstrap.js"></script>
+<script src="http://web.global.nibr.novartis.net/util/auth.js"></script>
+<script src="http://nebulacdn.na.novartis.net/plugins/sig-gethelp/2.0.0/jquery.sig.gethelp.js"></script>
+<script src="lib/chemdraw/chemdraw.js"></script>
+<script>
+    cd_includeWrapperFile("lib/chemdraw/", true);
+</script>
+<script src="jquery.moleditor.js"></script>
+<script>
+    var openDialog;
+    var saveAndCloseDialog;
+
+    $(document).ready(function () {
+        //header plugin init
+        $('body').nibrheader({
+            name: 'JQuery Mol Editor',
+            description: ' Test page for the plugin   ',
+            deploymentState: 'Dev',
+            appNameUrl: 'http://web.global.nibr.novartis.net/apps/confluence/pages/viewpage.action?pageId=41649101'
+        });
+
+        //gethelp plugin init
+        /*$("#getHelpLink").sigGetHelp({
+         projectId: 'projectid', //JIRA project ID
+         appTitle: 'title', //app title
+         assignee: 'USER521', //JIRA assignee 521
+         appHelpContent: '<p></p>', //HTML to show up in plugin panel
+         feedbackNotes: [
+         { name: 'appname', value: 'value' }
+         ] //JIRA notes to add to tickets
+         });*/
+
+        //----- mol editor part
+
+        var $molEditor = $("#moleditor");
+        var $molStrBox = $('#molStrBox');
+        var $sketchModal = $("#sketch-modal");
+
+        $molEditor.moleditor({
+            width: 556,
+            height: 340
+        });
+
+        $sketchModal.on('shown.bs.modal', function () {
+            if ($molStrBox.val()) {
+                var ctab = $molStrBox.val();
+                $molEditor.moleditor('setMolfile', ctab);
+                /*var smiles = $molStrBox.val();
+                 $molEditor.moleditor('setSmiles', smiles);*/
+            }
+        });
+
+        openDialog = function () {
+            $sketchModal.modal('show');
+        }
+
+        saveAndCloseDialog = function () {
+            var molfile = $molEditor.moleditor('getMolfile');
+            $molStrBox.val(molfile);
+            /*  var smiles = $molEditor.moleditor('getSmiles');
+             $molStrBox.val(smiles);*/
+            $sketchModal.modal('hide');
+        }
+
+        //----- mol editor part end
+    })
+</script>
+</body>
+</html>

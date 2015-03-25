@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scaffolds/!svn/ver/1501/frontend/src/main/webapp/assets/js/apps/structure/tags/templates
+END
+filter_panel.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/scaffolds/!svn/ver/1479/frontend/src/main/webapp/assets/js/apps/structure/tags/templates/filter_panel.tpl
+END
+structures_filtering_results.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/scaffolds/!svn/ver/1501/frontend/src/main/webapp/assets/js/apps/structure/tags/templates/structures_filtering_results.tpl
+END
+tag_item.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/scaffolds/!svn/ver/1431/frontend/src/main/webapp/assets/js/apps/structure/tags/templates/tag_item.tpl
+END
+tag_item_wo_border.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/js/apps/structure/tags/templates/tag_item_wo_border.tpl
+END

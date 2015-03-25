@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1543/frontend/src/main/webapp/assets/js/apps/projects/list
+END
+list_view.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/scaffolds/!svn/ver/1543/frontend/src/main/webapp/assets/js/apps/projects/list/list_view.js
+END
+list_view_table.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/scaffolds/!svn/ver/1478/frontend/src/main/webapp/assets/js/apps/projects/list/list_view_table.js
+END
+list_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/scaffolds/!svn/ver/1487/frontend/src/main/webapp/assets/js/apps/projects/list/list_controller.js
+END

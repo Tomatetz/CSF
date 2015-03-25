@@ -1,0 +1,16 @@
+.preview-card {
+  display:none; position:absolute; z-index:1100; min-height: 75px;
+  background-color:white; padding: 5px; border: 1px solid @border-color; .border-radius(@border-radius-small);
+  // Preview Card: Person
+  .person-preview {
+    .photo {width:70px; min-height:70px; float:left;
+      &:empty {background-color: #eee;}
+      img {width:70px;}
+    }
+    .person-details {margin-left:80px; font-size:12px;
+      > a {font-weight:bold;}
+      .person-title {font-size:11px; color:#999; margin-bottom:3px;}
+    }
+  }
+  .phone.unavailable {color: #666;}
+}

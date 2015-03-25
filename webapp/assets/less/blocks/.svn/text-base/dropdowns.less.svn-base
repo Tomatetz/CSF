@@ -1,0 +1,14 @@
+.dropdown {
+  > a {
+    &, &:hover, &:active {text-decoration: none !important;}
+  }
+  .dropdown-menu {
+    &.dropdown-icon-menu {min-width:0;}
+    &.dropdown-panel {padding:@padding-base-horizontal;}
+  }
+  &.open > .btn > .glyphicon {color:@link-hover-color;}
+}
+.dropdown-menu {
+  min-width: 50px; padding:3px 0;
+  > li > a {color:@text-color; padding:@padding-small-vertical @padding-base-horizontal; text-align: left;}
+}

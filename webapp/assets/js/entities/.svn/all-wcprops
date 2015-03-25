@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scaffolds/!svn/ver/1529/frontend/src/main/webapp/assets/js/entities
+END
+note.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scaffolds/!svn/ver/1526/frontend/src/main/webapp/assets/js/entities/note.js
+END
+project.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scaffolds/!svn/ver/1344/frontend/src/main/webapp/assets/js/entities/project.js
+END
+ptt_code_details.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1561/frontend/src/main/webapp/assets/js/entities/ptt_code_details.js
+END
+common.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scaffolds/!svn/ver/694/frontend/src/main/webapp/assets/js/entities/common.js
+END
+header.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scaffolds/!svn/ver/522/frontend/src/main/webapp/assets/js/entities/header.js
+END
+link_definitions.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1561/frontend/src/main/webapp/assets/js/entities/link_definitions.js
+END
+series.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1562/frontend/src/main/webapp/assets/js/entities/series.js
+END
+tag.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scaffolds/!svn/ver/1561/frontend/src/main/webapp/assets/js/entities/tag.js
+END
+link.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scaffolds/!svn/ver/1561/frontend/src/main/webapp/assets/js/entities/link.js
+END
+relation_reason_definitions.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/scaffolds/!svn/ver/1525/frontend/src/main/webapp/assets/js/entities/relation_reason_definitions.js
+END
+source.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/scaffolds/!svn/ver/1561/frontend/src/main/webapp/assets/js/entities/source.js
+END
+structure.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/scaffolds/!svn/ver/1561/frontend/src/main/webapp/assets/js/entities/structure.js
+END
+relationship.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/scaffolds/!svn/ver/1525/frontend/src/main/webapp/assets/js/entities/relationship.js
+END

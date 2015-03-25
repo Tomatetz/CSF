@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5, h6 {
+  &:first-child {margin-top:0;}
+  a {color:@link-color;
+    &:hover, &:active, &:focus {color:@link-hover-color;}
+  }
+}
+h1, h2 {max-width:@text-maxl-width;}
+h5 {font-weight:bold;}
+
+.comment {font-size:@comment-size; margin-bottom: @padding-large-vertical; overflow:hidden;
+  > p {background-color:@comment-bg; padding:@comment-padding; margin-bottom:@padding-small-vertical;}
+  > .btn-link {margin-right:@padding-large-horizontal; cursor:default;}
+  > span.date {font-size:@comment-date-size;margin-right:@padding-large-horizontal;}
+}
+
+.text-lg {font-size: @font-size-large;}
+.bold {font-weight:bold;}
+
+.text-norm {font-weight:normal; font-size:@font-size-base;}
+
+.fake-link {color:@link-color; cursor: pointer;
+  &:hover {color:@link-hover-color; text-decoration: none;}
+}
+
+.word-break {word-break: break-all;}

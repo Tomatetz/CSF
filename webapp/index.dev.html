@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Compound Series & Favorites</title>
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/vendor/html5shiv.js"></script>
+    <script src="assets/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="./assets/js/vendor/require.js"></script>
+    <script src="./assets/js/optimized.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="wrap">
+    <header data-role="header">
+        <div id="nibr-header"></div>
+        <div id="breadcrumbs"></div>
+    </header>
+    <div id="main" class="container-fluid" data-role="content"></div>
+</div>
+<footer data-role="footer" id="footer">
+    <div class="container-fluid">
+        <div class="copyright pull-left">
+            (C)2014 Novartis Institutes for BioMedical Research. <span id="footer_version_tag"></span> Version:
+            <span id="footer_version">${csf.webapp.version}</span><span id="footer_build_time"> - ${csf.webapp.build_time}</span><span id="footer_environment"></span>
+        </div>
+        <div class="contact pull-right"><span class="timestamp"></span> Contact <a
+                href="mailto:anna.pelliccioli@novartis.com">Application Owner</a> for more information.
+            <a href="/csf" style="margin-left:10px;">REST API</a>.
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    NIBRIam = {NIBR521: "BOLSHRO1", NIBRFirst: "Roman", NIBRLast: "Bolshev", NIBRFull: "Roman Bolshev", NIBREMAIL: "roman.bolshev@novartis.com", NIBRSite: "chbs"};
+
+    var EnvConfig = {
+        CSFVersion: "${csf.webapp.version}-${csf.webapp.build_time}",
+        ApiUrl: "/csf/1.0/",
+        SketcherId: "Marvin",
+        PeopleServiceApiUrl: "/mocks/ui/web.global.nibr.novartis.net/services/ps/v1/people/search",
+        MoleculesRenderApiUrl: "/mocks/ui/web.global.nibr.novartis.net/services/depicter/mol-renderer/t.b64",
+        SourceAssaySearchUrl: "/mocks/ui/magma.nibr.novartis.net/0.8/rest/assay/search.json",
+        SourceLiteratureSearchUrl: "http://search.crossref.org/dois",
+        PreviewCardPeopleUrl: "/mocks/ui/uscalx1214.na.novartis.net/people/get.json",
+        NVPGetMolfile: "/mocks/ui/web-int.global.nibr.novartis.net/services/SMF/Lookup/RESTLookupService.svc/json/lookup"
+    }
+
+</script>
+
+<script src="./assets/js/require_main.js"></script>
+
+<div id="dialog-region"></div>
+<div id="notify-region"></div>
+</body>
+</html>

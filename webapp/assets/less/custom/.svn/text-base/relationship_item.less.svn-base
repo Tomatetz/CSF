@@ -1,0 +1,12 @@
+.select2-result-label{
+  .structure-type {
+    border: none;
+    color: #FFF;
+    &.structure-type-scaffold {
+      background-color: #999;
+    }
+    &.structure-type-compound {
+      background-color: #fcaf17;
+    }
+  }
+}

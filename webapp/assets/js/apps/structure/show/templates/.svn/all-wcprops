@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scaffolds/!svn/ver/1504/frontend/src/main/webapp/assets/js/apps/structure/show/templates
+END
+structure_name_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/scaffolds/!svn/ver/1462/frontend/src/main/webapp/assets/js/apps/structure/show/templates/structure_name_form.tpl
+END
+edit_name.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/scaffolds/!svn/ver/1504/frontend/src/main/webapp/assets/js/apps/structure/show/templates/edit_name.tpl
+END
+d3.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/scaffolds/!svn/ver/680/frontend/src/main/webapp/assets/js/apps/structure/show/templates/d3.tpl
+END
+missing.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scaffolds/!svn/ver/629/frontend/src/main/webapp/assets/js/apps/structure/show/templates/missing.tpl
+END
+view_image.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/scaffolds/!svn/ver/1490/frontend/src/main/webapp/assets/js/apps/structure/show/templates/view_image.tpl
+END
+layout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scaffolds/!svn/ver/1346/frontend/src/main/webapp/assets/js/apps/structure/show/templates/layout.tpl
+END
+tags.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/scaffolds/!svn/ver/1043/frontend/src/main/webapp/assets/js/apps/structure/show/templates/tags.tpl
+END

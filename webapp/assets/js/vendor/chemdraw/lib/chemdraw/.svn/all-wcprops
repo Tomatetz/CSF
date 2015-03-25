@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scaffolds/!svn/ver/1145/frontend/src/main/webapp/assets/js/vendor/chemdraw/lib/chemdraw
+END
+cdlib_ie.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scaffolds/!svn/ver/1145/frontend/src/main/webapp/assets/js/vendor/chemdraw/lib/chemdraw/cdlib_ie.js
+END
+chemdraw.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scaffolds/!svn/ver/1145/frontend/src/main/webapp/assets/js/vendor/chemdraw/lib/chemdraw/chemdraw.js
+END
+cdlib_ns.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/scaffolds/!svn/ver/1145/frontend/src/main/webapp/assets/js/vendor/chemdraw/lib/chemdraw/cdlib_ns.js
+END

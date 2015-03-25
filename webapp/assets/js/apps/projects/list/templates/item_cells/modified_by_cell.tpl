@@ -1,0 +1,1 @@
+<span rel="<%= id %>" class="person-preview"><%= name %></span>
